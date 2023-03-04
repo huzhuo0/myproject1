@@ -1,3 +1,11 @@
+<!--
+ * @Author: huzhuo 1144291576@qq.com
+ * @Date: 2023-03-04 15:50:50
+ * @LastEditors: huzhuo 1144291576@qq.com
+ * @LastEditTime: 2023-03-04 15:59:03
+ * @FilePath: \myproject1\src\views\About.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <div class="home" :style="{width:width,height:height}">
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
@@ -11,7 +19,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 // import mixinTest from '@/utils/mixin.js' // 局部混入
 
 export default {
-  name: 'Home',
+  name: 'About',
   components: {
     HelloWorld
   },
