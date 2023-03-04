@@ -1,0 +1,24 @@
+@mixin wordcolor {
+  color:red
+}
+
+@mixin weiyuansu($width,$height) {
+  content:'';
+  display:block;
+  width:$width;
+  height:$height;
+  visibility: hidden;
+
+}
+
+@mixin backgroundStyle($url) {
+  background:url($url);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@mixin backgroundCoverStyle($url) {
+  background:url($url);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
